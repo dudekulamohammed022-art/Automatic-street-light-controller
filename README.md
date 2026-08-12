@@ -1,3 +1,30 @@
+# Smart Automatic Street Light Controller
+
+## Project Description
+This project automatically controls a street light using an LDR.
+
+## Components
+- Arduino Uno
+- LDR (Photoresistor)
+- 10k Resistor
+- LED
+- 220Ω Resistor
+
+## Working
+During daytime, the LED remains OFF.
+At night, the detects and turns the LED ON.
+
+## Technologies
+- Arduino
+- Tinkercad
+- C/C++
+
+## Tinkercad Simulation
+https://www.tinkercad.com/things/2NCUyRZjw5F/editel?returnTo=%2Fdashboard
+
+## Author
+Dudekula Mohammad
+
 # Automatic-street-light-controller
 // code \\
 int ldrPin = A0;
